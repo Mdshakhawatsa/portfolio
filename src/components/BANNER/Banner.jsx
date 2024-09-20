@@ -10,10 +10,7 @@ const Banner = () => (
         <div id="banner" className="lg:flex justify-around items-center h-screen ">
             {/* left side  text*/}
             <div className="    justify-center  items-center">
-                <img className=" border rounded-lg w-80 hover:scale-105 transition-transform duration-300" src="../../../public/shakhawat-Photoroom.jpg" alt="" />
-
-
-
+                <img className=" border rounded-lg w-80 hover:scale-105 transition-transform duration-300" src="https://i.ibb.co.com/bPXn2hv/shakhawat-Photoroom.jpg" alt="" />
 
                 <h1 className=" text-center text-2xl font-semibold text-cyan-800">MD.SHAKHAWAT HOSSEN</h1>
                 <h1 className="  text-center text-slate-600 text-1xl font-semibold">Mern Stack Developer</h1>
@@ -49,10 +46,10 @@ const Banner = () => (
 
                 <div className="flex items-center justify-center  rounded-lg h-10  w-28 lg:ml-32 mt-7 bg-[#00838F] gap-3  transition-transform duration-300 shadow-lg  hover:shadow-[0_0_20px_5px_rgba(51,130,122,0.7)] hover:scale-125">
                     <button className="uppercase font-semibold  text-white   text-center ">rusume</button>
-                    
+
                     <FaFileDownload className="animate-floating text-white text-lg" />
                 </div>
-    
+
 
             </div>
         </div>
