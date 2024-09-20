@@ -1,0 +1,23 @@
+.colorBackground{
+    /* height: 100vh; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background: radial-gradient(circle at center,
+                                rgba(70, 158, 137, 0.445) ,
+                                rgba(111, 156, 149, 0.295) ,
+                                rgba(112, 202, 183, 0.418) ,
+                                rgba(181, 107, 199, 0.301) );
+}
+/* .floting-text{
+    font-size: 70px;
+    cursor: pointer;
+}
+.word{
+    display: inline-block;
+    transition: transform 0.10s  case-in-out;
+}
+.word:hover{
+    transform: translateY(-40px)
+} */
