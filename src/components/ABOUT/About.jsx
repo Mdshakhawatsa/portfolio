@@ -30,10 +30,10 @@ const About = () => {
                 </h1>
 
                 {/*personal details  */}
-                <div className=' '>
+                <div >
 
                     <div className='flex gap-2 mt-10 text-[18x]'>
-                        <div className='border border-red-800  gap-5'>
+                        <div className='  gap-5'>
                             <div className='flex  items-center h-10 gap-5'>
                                 <FaCalendar />
                                 <h1 className='font-semibold'>BIRTHDAY</h1>
@@ -44,28 +44,28 @@ const About = () => {
                             </div>
 
                             <div className='flex  h-10 items-center gap-5'>
-                            <FaLocationArrow />
+                                <FaLocationArrow />
                                 <h1 className='font-semibold'>LOCATION</h1>
                             </div>
 
                             <div className='flex h-10  items-center gap-5'>
-                            <FaAtom />
+                                <FaAtom />
                                 <h1 className='font-semibold'>INTEREST</h1>
                             </div>
 
                             <div className='flex h-10  items-center gap-5'>
-                            <FaCommentAlt />
+                                <FaCommentAlt />
                                 <h1 className='font-semibold'>EMAIL</h1>
                             </div>
                         </div>
                         {/* 2 */}
-                        <div className='border border-red-800'>
-                        
+                        <div className=''>
+
                             <div className='flex h-10 items-center   gap-5'>
                                 <h1 className='font-semibold'>:</h1>
                                 <h1 className='lg:font-semibold text-gray-700  '> Feni Polytechnic Institute(8th semester) </h1>
-                            </div> 
-                           <div className='flex h-10 items-center  gap-5'>
+                            </div>
+                            <div className='flex h-10 items-center  gap-5'>
                                 <h1 className='font-semibold'>:</h1>
                                 <h1 className='lg:font-semibold text-gray-700 '> 20th-May-2002 </h1>
                             </div>
@@ -73,14 +73,14 @@ const About = () => {
                                 <h1 className='font-semibold'>:</h1>
                                 <h1 className='lg:font-semibold text-gray-700 '> Laksam, Cumilla ,Bangladesh</h1>
                             </div>
-                               <div className='flex  h-10 items-center  gap-5'>
+                            <div className='flex  h-10 items-center  gap-5'>
                                 <h1 className='font-semibold'>:</h1>
                                 <h1 className='lg:font-semibold text-gray-700  '> Taking Challenge, Creativity, Design </h1>
-                            </div> 
-                         <div className='flex  h-10 items-center  gap-5'>
+                            </div>
+                            <div className='flex  h-10 items-center  gap-5'>
                                 <h1 className='font-semibold'>:</h1>
                                 <h1 className='lg:font-semibold text-gray-700  '> mdffsa999@gmail.com </h1>
-                            </div> 
+                            </div>
                         </div>
                     </div>
 
@@ -97,10 +97,10 @@ const About = () => {
                 <div className='flex'>
                     <div className='w-1 bg-black'></div>
                     <h2 className="text-center  text-3xl font-sans font-bold">
-                    <span className="text-transparent bg-gradient-to-tr bg-clip-text from-indigo-600 via-teal-800 to-slate-800 dark:from-sky-800 dark:via-pink-300 dark:to-red-100">
-                         Education
-                    </span>
-                </h2>
+                        <span className="text-transparent bg-gradient-to-tr bg-clip-text from-indigo-600 via-teal-800 to-slate-800 dark:from-sky-800 dark:via-pink-300 dark:to-red-100">
+                            Education
+                        </span>
+                    </h2>
                 </div>
 
                 <div className='lg:flex justify-around'>
