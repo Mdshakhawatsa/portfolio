@@ -120,7 +120,7 @@ const Skills = () => {
 
 
 
-            <div class="max-w-7xl mx-auto border lg:mt-28 py-12 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto lg:mt-28 py-12 px-4 sm:px-6 lg:px-8">
 
 
                 <div class="grid grid-cols-2 sm:grid-cols-4 gap-10">

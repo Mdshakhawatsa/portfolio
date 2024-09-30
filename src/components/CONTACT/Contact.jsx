@@ -1,19 +1,16 @@
 
 const Contact = () => {
     return (
-        <div id="Contact" className=" ">
-
-
-
-            <div className='flex mt-4 gap-2'>
+        <div id="contact" className=" ">
+            <div className='flex  gap-2'>
                 <div data-aos="fade-right" className='w-1  bg-black'></div>
-                <h2 className="text-center  text-4xl font-sans font-bold">
+                <h2 className="text-center  text-4xl  font-bold">
                     <span className="text-transparent bg-gradient-to-tr bg-clip-text from-indigo-600 via-teal-800 to-slate-800 dark:from-sky-800 dark:via-pink-300 dark:to-red-100">
                          Contuct
                     </span>
                 </h2>
             </div>
-            <section id="contact" class=" text-white py-10 px-5 md:px-0">
+            <section  class=" text-white py-10 px-5 md:px-0">
                 <div class="max-w-5xl mx-auto text-center">
                     <p class="text-gray-600 text-xl mb-12">
                         I'm always open to new opportunities and would love to connect. Whether you have a question, project idea, or just want to chat, feel free to reach out!
