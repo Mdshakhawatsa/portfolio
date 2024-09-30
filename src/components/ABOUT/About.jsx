@@ -7,7 +7,7 @@ import { FaCalendar, FaBookOpen, FaLocationArrow, FaAtom, FaCommentAlt, FaGradua
 const About = () => {
     return (
 
-        <div id='about' className='h-screen'>
+        <div id='about' className=''>
 
             <div className='flex mt-4'>
                 <div data-aos="fade-right" className='w-1  bg-black'></div>
@@ -30,66 +30,58 @@ const About = () => {
                 </h1>
 
                 {/*personal details  */}
-                <div className='flex '>
+                <div className=' '>
 
-                    <div className='mt-10 text-[18x]'>
-                        <div className='flex  items-center gap-5'>
-                            <div className='flex  items-center gap-5'>
+                    <div className='flex gap-2 mt-10 text-[18x]'>
+                        <div className='border border-red-800  gap-5'>
+                            <div className='flex  items-center h-10 gap-5'>
                                 <FaCalendar />
                                 <h1 className='font-semibold'>BIRTHDAY</h1>
                             </div>
-                            <div className='flex  items-center gap-5'>
-                                <h1 className='font-semibold'>:</h1>
-                                <h1 className='font-semibold text-gray-700 '> 20th-May-2002 </h1>
-                            </div>
-                        </div>
-                        {/* 2 */}
-
-                        <div className='flex   items-center gap-5'>
-                            <div className='flex   items-center gap-5'>
+                            <div className='flex h-10 items-center gap-5'>
                                 <FaBookOpen />
                                 <h1 className='font-semibold'>STUDY</h1>
                             </div>
-                            <div className='flex   items-center gap-5'>
-                                <h1 className='font-semibold'>:</h1>
-                                <h1 className='font-semibold text-gray-700  '> Feni Polytechnic Institute(8th semester) </h1>
-                            </div>
-                        </div>
-                        {/* 3 */}
-                        <div className='flex   items-center gap-5'>
-                            <div className='flex   items-center gap-5'>
+
+                            <div className='flex  h-10 items-center gap-5'>
                             <FaLocationArrow />
                                 <h1 className='font-semibold'>LOCATION</h1>
                             </div>
-                            <div className='flex   items-center gap-5'>
-                                <h1 className='font-semibold'>:</h1>
-                                <h1 className='font-semibold text-gray-700 '> Laksam, Cumilla ,Bangladesh</h1>
-                            </div>
-                        </div>
-                        {/* 4 */}
-                        <div className='flex   items-center gap-5'>
-                            <div className='flex   items-center gap-5'>
+
+                            <div className='flex h-10  items-center gap-5'>
                             <FaAtom />
                                 <h1 className='font-semibold'>INTEREST</h1>
                             </div>
-                            <div className='flex   items-center gap-5'>
-                                <h1 className='font-semibold'>:</h1>
-                                <h1 className='font-semibold text-gray-700  '> Taking Challenge, Creativity, Design </h1>
-                            </div>
-                        </div>
-                        {/*  */}
-                        <div className='flex   items-center gap-5'>
-                            <div className='flex   items-center gap-5'>
+
+                            <div className='flex h-10  items-center gap-5'>
                             <FaCommentAlt />
                                 <h1 className='font-semibold'>EMAIL</h1>
                             </div>
-                            <div className='flex   items-center gap-5'>
-                                <h1 className='font-semibold'>:</h1>
-                                <h1 className='font-semibold text-gray-700  '> mdffsa999@gmail.com </h1>
-                            </div>
                         </div>
-
-                     
+                        {/* 2 */}
+                        <div className='border border-red-800'>
+                        
+                            <div className='flex h-10 items-center   gap-5'>
+                                <h1 className='font-semibold'>:</h1>
+                                <h1 className='lg:font-semibold text-gray-700  '> Feni Polytechnic Institute(8th semester) </h1>
+                            </div> 
+                           <div className='flex h-10 items-center  gap-5'>
+                                <h1 className='font-semibold'>:</h1>
+                                <h1 className='lg:font-semibold text-gray-700 '> 20th-May-2002 </h1>
+                            </div>
+                            <div className='flex  h-10 items-center  gap-5'>
+                                <h1 className='font-semibold'>:</h1>
+                                <h1 className='lg:font-semibold text-gray-700 '> Laksam, Cumilla ,Bangladesh</h1>
+                            </div>
+                               <div className='flex  h-10 items-center  gap-5'>
+                                <h1 className='font-semibold'>:</h1>
+                                <h1 className='lg:font-semibold text-gray-700  '> Taking Challenge, Creativity, Design </h1>
+                            </div> 
+                         <div className='flex  h-10 items-center  gap-5'>
+                                <h1 className='font-semibold'>:</h1>
+                                <h1 className='lg:font-semibold text-gray-700  '> mdffsa999@gmail.com </h1>
+                            </div> 
+                        </div>
                     </div>
 
                     {/* education */}

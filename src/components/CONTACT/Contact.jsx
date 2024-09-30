@@ -1,7 +1,7 @@
 
 const Contact = () => {
     return (
-        <div id="Contact" className=" h-screen">
+        <div id="Contact" className=" ">
 
 
 
@@ -27,10 +27,10 @@ const Contact = () => {
                             <span class="font-bold">Email:</span> <a href="mailto:youremail@example.com" class="text-indigo-400">mdffsa999@gmail.com</a>
                         </p>
                         <p class="text-black mb-4">
-                            <span class="font-bold">Phone:</span> +880-1234-567890
+                            <span class="font-bold">Phone:</span> +880-1781646455
                         </p>
                         <p class="text-black">
-                            <span class="font-bold">Location:</span> Feni, Bangladesh
+                            <span class="font-bold">Location:</span> cumilla, Bangladesh
                         </p>
                     </div>
 

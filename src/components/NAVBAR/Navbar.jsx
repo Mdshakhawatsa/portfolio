@@ -8,7 +8,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="fixed md:mt-52">
+    <div className="fixed md:mt-52 ">
       <ul className="menu">
         <li className="menu_list">
           {/* Use FontAwesomeIcon as a component */}
