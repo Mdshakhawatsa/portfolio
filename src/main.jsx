@@ -8,7 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 // import Root from './components/Root/Root';
-import Home from './Home/Home';
+// import Home from './Home/Home';
 import About from './components/ABOUT/About';
 import Error from './components/ERRORPAGE/Error';
 import Skills from './components/SKILLS/Skills';
@@ -21,28 +21,28 @@ import Banner from './components/BANNER/Banner';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root/>,
-    errorElement: <Error/>,
+    element: <Root />,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
-        element: <Banner/>,
+        element: <Banner />,
       },
       {
         path: "/about",
-        element: <About/> ,
+        element: <About />,
       },
       {
         path: "/skill",
-        element: <Skills/>,
+        element: <Skills />,
       },
       {
         path: "/projects",
-        element: <Projects/>,
+        element: <Projects />,
       },
       {
         path: "/contact",
-        element: <Contact/>,
+        element: <Contact />,
       },
     ],
   },
