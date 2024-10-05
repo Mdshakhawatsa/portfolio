@@ -3,11 +3,17 @@ import About from "../ABOUT/About";
 import Skills from "../SKILLS/Skills";
 import Projects from "../PROJECTS/Projects";
 import Contact from "../CONTACT/Contact";
-
 import "../BANNER/style.css"
+import 'aos/dist/aos.css'
+
+
 const Banner = () => (
+
+
+
     <div>
-        <div id="banner" className="lg:flex justify-around items-center lg:h-screen ">
+        <div data-aos="fade-up"
+            data-aos-duration="2000" id="banner" className="lg:flex justify-around items-center lg:h-screen ">
             {/* left side  text*/}
             <div className="justify-center  items-center">
                 <img className=" rounded-lg w-80 hover:scale-105 transition-transform duration-500 ml-3" src="https://i.ibb.co.com/bPXn2hv/shakhawat-Photoroom.jpg" alt="" />
