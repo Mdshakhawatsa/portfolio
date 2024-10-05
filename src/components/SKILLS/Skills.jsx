@@ -1,10 +1,20 @@
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+import Aos from 'aos';
+
 
 const Skills = () => {
+    useEffect(() => {
+        Aos.init();
+    }, [])
+
+
+
     return (
         <div id="skill" className="mt-20 lg:h-screen">
             <div className='flex mt-4'>
                 <div data-aos="fade-right" className='w-1  bg-black'></div>
-                <h2 className="text-center  text-4xl font-sans font-bold">
+                <h2 data-aos="fade-left" className="text-center  text-4xl font-sans font-bold">
                     <span className="text-transparent bg-gradient-to-br bg-clip-text from-teal-700 via-indigo-500 to-teal-500 dark:from-teal-200 dark:via-indigo-300 dark:to-sky-500 ml-2">
                         My
                     </span>{" "}
@@ -123,90 +133,85 @@ const Skills = () => {
             <div class="max-w-7xl mx-auto lg:mt-28 py-12 px-4 sm:px-6 lg:px-8">
 
 
-                <div class="grid grid-cols-2 sm:grid-cols-4 gap-10">
+                <div data-aos="fade-up"
+                    data-aos-duration="3000" class="grid grid-cols-2 sm:grid-cols-4 gap-10">
 
-                    <div class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
-                        <img
-                            src="https://img.icons8.com/color/48/000000/html-5.png"
-                            alt="HTML"
-                            class="w-20 h-20 hover:scale-110 transition-transform duration-300"
-                        />
-                        <p class="text-white mt-4">HTML</p>
+                    <div className='hover:scale-90  transition-transform duration-300 '>
+                        <div data-aos="zoom-in" class="flex flex-col items-center bg-[#00838F]  p-5 rounded-lg">
+                            <img
+                                src="https://img.icons8.com/color/48/000000/html-5.png"
+                                alt="HTML"
+                                class="w-20 h-20  "
+                            />
+                            <p class="text-white mt-4">HTML</p>
+                        </div>
                     </div>
 
-                    <div class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
+                    <div data-aos="zoom-in" class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
                         <img
                             src="https://img.icons8.com/color/48/000000/css3.png"
                             alt="CSS"
-                            class="w-20 h-20 hover:scale-110 transition-transform duration-300"
+                            class="w-20 h-20 hover:scale-150 transition-transform duration-300"
                         />
                         <p class="text-white mt-4">CSS</p>
                     </div>
 
-                    <div class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
+                    <div data-aos="zoom-in" class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
                         <img
                             src="https://img.icons8.com/color/48/000000/javascript.png"
                             alt="JavaScript"
-                            class="w-20 h-20 hover:scale-110 transition-transform duration-300"
+                            class="w-20 h-20 hover:scale-150 transition-transform duration-300"
                         />
                         <p class="text-white mt-4">JavaScript</p>
                     </div>
-                    <div class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
+                    <div data-aos="zoom-in" class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
                         <img
                             src="https://img.icons8.com/color/48/000000/github.png"
                             alt="GitHub"
-                            class="w-20 h-20 hover:scale-110 transition-transform duration-300"
+                            class="w-20 h-20 hover:scale-150 transition-transform duration-300"
                         />
                         <p class="text-white mt-4">GitHub</p>
                     </div>
 
 
-                    <div class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
+                    <div data-aos="zoom-in" class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
                         <img
                             src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
                             alt="MongoDB"
-                            class="w-20 h-20 hover:scale-110 transition-transform duration-300"
+                            class="w-20 h-20 hover:scale-150 transition-transform duration-300"
                         />
                         <p class="text-white mt-4">MongoDB</p>
                     </div>
 
 
-                    <div class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
+                    <div data-aos="zoom-in" class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
                         <img
                             src="https://cdn.worldvectorlogo.com/logos/express-109.svg"
                             alt="Express.js"
-                            class="w-20 h-20 hover:scale-110 transition-transform duration-300"
+                            class="w-20 h-20 hover:scale-150 transition-transform duration-300"
                         />
                         <p class="text-white mt-4">Express.js</p>
                     </div>
 
 
-                    <div class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
+                    <div data-aos="zoom-in" class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
                         <img
                             src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
                             alt="React"
-                            class="w-20 h-20 hover:scale-110 transition-transform duration-300"
+                            class="w-20 h-20 hover:scale-150 transition-transform duration-300"
                         />
                         <p class="text-white mt-4">React</p>
                     </div>
 
 
-                    <div class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
+                    <div data-aos="zoom-in" class="flex flex-col items-center bg-[#00838F] p-5 rounded-lg">
                         <img
                             src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
                             alt="Node.js"
-                            class="w-20 h-20 hover:scale-110 transition-transform duration-300"
+                            class="w-20 h-20 hover:scale-150 transition-transform duration-300"
                         />
                         <p class="text-white mt-4">Node.js</p>
                     </div>
-
-
-
-
-
-
-
-
 
 
 

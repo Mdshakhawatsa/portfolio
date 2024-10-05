@@ -1,17 +1,25 @@
 import React from 'react';
 // import Banner from '../BANNER/Banner';
 import { FaCalendar, FaBookOpen, FaLocationArrow, FaAtom, FaCommentAlt, FaGraduationCap } from "react-icons/fa";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+import Aos from 'aos';
 
 
 
 const About = () => {
+
+    useEffect(() => {
+        Aos.init();
+    }, [])
+
     return (
 
         <div id='about' className=''>
 
             <div className='flex mt-4'>
                 <div data-aos="fade-right" className='w-1  bg-black'></div>
-                <h2 className="text-center  text-4xl font-sans font-bold">
+                <h2 data-aos="fade-left" className="text-center  text-4xl font-sans font-bold">
                     <span className="text-transparent bg-gradient-to-br bg-clip-text from-teal-700 via-indigo-500 to-teal-500 dark:from-teal-200 dark:via-indigo-300 dark:to-sky-500 ml-2">
                         Personal
                     </span>{" "}
@@ -22,8 +30,9 @@ const About = () => {
             </div>
 
 
-            <div className=' mt-12'>
-                <h1 className='text-[17px] text-slate-800   lg:w-3/4 '>My name is <b>Md.Shakhawat Hossen</b>, a skilled <b>MERN stack developer</b> from <b>Bangladesh</b> with a deep passion for web development.
+            <div data-aos="fade-up"
+                data-aos-duration="3000" className=' mt-12'>
+                <h1 className='hover:scale-110  transition-transform duration-300 text-[17px] text-slate-800   lg:w-3/4 '>My name is <b>Md.Shakhawat Hossen</b>, a skilled <b>MERN stack developer</b> from <b>Bangladesh</b> with a deep passion for web development.
                     I am committed to crafting seamless and intuitive user experiences by designing user-friendly interfaces and ensuring every
                     feature operates smoothly. My dedication to perfection drives me to meticulously address bugs and errors, delivering
                     high-quality  results in every project.
@@ -105,23 +114,29 @@ const About = () => {
 
                 <div className='lg:flex justify-around'>
                     {/* 1 */}
-                    <div className='mt-10 bg-slate-300 rounded-lg p-8'>
-                        <div className='flex gap-1 underline '>
-                            <FaGraduationCap className='text-3xl' />
-                            <h1 className='text-xl font-bold'>SSC</h1>
+                    <div className='hover:scale-110  transition-transform duration-300 '>
+                        <div data-aos="fade-up"
+                            data-aos-duration="3000" className='mt-10  bg-slate-300 rounded-lg p-8'>
+                            <div className='flex gap-1 underline '>
+                                <FaGraduationCap className='text-3xl' />
+                                <h1 className='text-xl font-bold'>SSC</h1>
+                            </div>
+                            <h1 className='text-[15px]   font-semibold mt-3 max-w-[600px] text-gray-700'>I successfully completed my SSC exam in 2020, achieving a commendable GPA of 4.67  in the Science Group. My strong performance in Mathematics and Physics, where I earned A+ grades, reflects my dedication and passion for these subjects.</h1>
                         </div>
-                        <h1 className='text-[15px]   font-semibold mt-3 max-w-[600px] text-gray-700'>I successfully completed my SSC exam in 2020, achieving a commendable GPA of 4.67  in the Science Group. My strong performance in Mathematics and Physics, where I earned A+ grades, reflects my dedication and passion for these subjects.</h1>
                     </div>
 
                     {/* 2 */}
-                    <div className='w-1 mt-4 bg-black'></div>
+                    <div data-aos="fade-down" className='w-1 mt-4 bg-black'></div>
 
-                    <div className='mt-10 bg-slate-300 rounded-lg p-8'>
-                        <div className='flex gap-1 underline'>
-                            <FaGraduationCap className='text-3xl' />
-                            <h1 className='text-xl font-bold'>Diploma in Engineering</h1>
+                    <div className='hover:scale-110  transition-transform duration-300 '>
+                        <div data-aos="fade-up"
+                            data-aos-duration="3000" className='mt-10 bg-slate-300 rounded-lg p-8'>
+                            <div className='flex gap-1 underline'>
+                                <FaGraduationCap className='text-3xl' />
+                                <h1 className='text-xl font-bold'>Diploma in Engineering</h1>
+                            </div>
+                            <h1 className='text-[15px]   font-semibold  mt-3 max-w-[600px] text-gray-700'>Currently, I am pursuing a Diploma in Engineering at Feni Polytechnic Institute, specializing in Computer Science and Technology. This path was a natural choice for me as it aligns with my deep passion for technology and innovation. It offers me the perfect opportunity to expand my knowledge and skills. </h1>
                         </div>
-                        <h1 className='text-[15px]   font-semibold  mt-3 max-w-[600px] text-gray-700'>Currently, I am pursuing a Diploma in Engineering at Feni Polytechnic Institute, specializing in Computer Science and Technology. This path was a natural choice for me as it aligns with my deep passion for technology and innovation. It offers me the perfect opportunity to expand my knowledge and skills, equipping me to make meaningful contributions to the ever-evolving tech world. </h1>
                     </div>
 
                 </div>
