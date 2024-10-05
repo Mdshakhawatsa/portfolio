@@ -17,7 +17,7 @@ const About = () => {
 
         <div id='about' className=''>
 
-            <div className='flex mt-4'>
+            <div className='flex lg:mt-4'>
                 <div data-aos="fade-right" className='w-1  bg-black'></div>
                 <h2 data-aos="fade-left" className="text-center  text-4xl font-sans font-bold">
                     <span className="text-transparent bg-gradient-to-br bg-clip-text from-teal-700 via-indigo-500 to-teal-500 dark:from-teal-200 dark:via-indigo-300 dark:to-sky-500 ml-2">

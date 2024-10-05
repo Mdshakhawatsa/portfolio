@@ -7,7 +7,7 @@ import Contact from "../CONTACT/Contact";
 import "../BANNER/style.css"
 const Banner = () => (
     <div>
-        <div id="banner" className="lg:flex justify-around items-center h-screen ">
+        <div id="banner" className="lg:flex justify-around items-center lg:h-screen ">
             {/* left side  text*/}
             <div className="justify-center  items-center">
                 <img className=" rounded-lg w-80 hover:scale-105 transition-transform duration-500 ml-3" src="https://i.ibb.co.com/bPXn2hv/shakhawat-Photoroom.jpg" alt="" />
@@ -47,7 +47,7 @@ const Banner = () => (
                 <p className="font-poppins font-medium text-gray-600 lg:w-[430px] mt-6">I’m a Front-End Developer with MERN stack expertise. I have completed some project and over six personal projects.</p>
 
 
-                <div className=" text-center justify-center flex transition-transform duration-300   hover:scale-125 ">
+                <div className=" mt-4 mb-4 text-center justify-center flex transition-transform duration-300   hover:scale-125 ">
                     <button class="flex gap-2 items-center style px-5 py-2  text-white cursor-pointer">Resume! <FaFileDownload className="animate-floating text-white text-lg " /></button>
                     {/* <FaFileDownload className="animate-floating text-white text-lg mr-10" /> */}
                 </div>
