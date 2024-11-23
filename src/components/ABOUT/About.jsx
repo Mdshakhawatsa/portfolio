@@ -45,11 +45,11 @@ const About = () => {
                         <div className='  gap-5'>
                             <div className='flex  items-center h-10 gap-5'>
                                 <FaCalendar />
-                                <h1 className='font-semibold'>BIRTHDAY</h1>
+                                <h1 className='font-semibold'>STUDY</h1>
                             </div>
                             <div className='flex h-10 items-center gap-5'>
                                 <FaBookOpen />
-                                <h1 className='font-semibold'>STUDY</h1>
+                                <h1 className='font-semibold'>BIRTHDAY</h1>
                             </div>
 
                             <div className='flex  h-10 items-center gap-5'>
